@@ -1,0 +1,144 @@
+//{{NO_DEPENDENCIES}}
+// Microsoft Developer Studio generated include file.
+// Used by DiO.rc
+//
+#define IDD_DIO_DLG                     102
+#define IDP_SOCKETS_INIT_FAILED         103
+#define IDR_MAINFRAME                   128
+#define IDD_IP_ADDRESS                  129
+#define IDD_USER_NAME                   137
+#define IDB_OFF                         140
+#define IDB_ON                          141
+#define IDB_X                           144
+#define IDB_ON_G                        146
+#define IDB_OFF_G                       147
+#define IDD_SET_INPUT                   148
+#define IDC_IP_ADDRESS                  1000
+#define IDC_SAVE_RX                     1002
+#define IDC_CONNECTED                   1011
+#define IDC_SET_IP                      1012
+#define IDC_IP_PORT                     1013
+#define IDC_USER_NAME                   1013
+#define IDC_ANSWER                      1015
+#define IDC_TEXT_1                      1034
+#define IDC_1_CLR_R                     1035
+#define IDC_1_CLR_G                     1036
+#define IDC_1_CLR_B                     1037
+#define IDC_BUTTON_1                    1038
+#define IDC_TEXT_0                      1039
+#define IDC_0_CLR_R                     1040
+#define IDC_0_CLR_G                     1041
+#define IDC_0_CLR_B                     1042
+#define IDC_BUTTON_0                    1043
+#define IDC_1_BKG_R                     1044
+#define IDC_1_BKG_G                     1045
+#define IDC_1_BKG_B                     1046
+#define IDC_0_BKG_R                     1047
+#define IDC_0_BKG_G                     1048
+#define IDC_0_BKG_B                     1049
+#define IDC_N_INPUT                     1070
+#define IDC_1_BYTE_CLR_R                1071
+#define IDC_1_BYTE_CLR_G                1072
+#define IDC_1_BYTE_CLR_B                1073
+#define IDC_0_BYTE_CLR_R                1074
+#define IDC_0_BYTE_CLR_G                1075
+#define IDC_0_BYTE_CLR_B                1076
+#define IDC_1_BYTE_BKG_R                1077
+#define IDC_1_BYTE_BKG_G                1078
+#define IDC_1_BYTE_BKG_B                1079
+#define IDC_0_BYTE_BKG_R                1080
+#define IDC_0_BYTE_BKG_G                1081
+#define IDC_0_BYTE_BKG_B                1082
+#define IDC_IN_00                       11000
+#define IDC_IN_01                       11001
+#define IDC_IN_02                       11002
+#define IDC_IN_03                       11003
+#define IDC_IN_04                       11004
+#define IDC_IN_05                       11005
+#define IDC_IN_06                       11006
+#define IDC_IN_07                       11007
+#define IDC_IN_08                       11008
+#define IDC_IN_09                       11009
+#define IDC_IN_10                       11010
+#define IDC_IN_11                       11011
+#define IDC_IN_12                       11012
+#define IDC_IN_13                       11013
+#define IDC_IN_14                       11014
+#define IDC_IN_15                       11015
+#define IDC_IN_16                       11016
+#define IDC_IN_17                       11017
+#define IDC_IN_18                       11018
+#define IDC_IN_19                       11019
+#define IDC_IN_20                       11020
+#define IDC_IN_21                       11021
+#define IDC_IN_22                       11022
+#define IDC_IN_23                       11023
+#define IDC_IN_24                       11024
+#define IDC_IN_25                       11025
+#define IDC_IN_26                       11026
+#define IDC_IN_27                       11027
+#define IDC_IN_28                       11028
+#define IDC_IN_29                       11029
+#define IDC_IN_30                       11030
+#define IDC_IN_31                       11031
+#define IDC_OUT_00                      12000
+#define IDC_OUT_01                      12001
+#define IDC_OUT_02                      12002
+#define IDC_OUT_03                      12003
+#define IDC_OUT_04                      12004
+#define IDC_OUT_05                      12005
+#define IDC_OUT_06                      12006
+#define IDC_OUT_07                      12007
+#define IDC_OUT_08                      12008
+#define IDC_OUT_09                      12009
+#define IDC_OUT_10                      12010
+#define IDC_OUT_11                      12011
+#define IDC_OUT_12                      12012
+#define IDC_OUT_13                      12013
+#define IDC_OUT_14                      12014
+#define IDC_OUT_15                      12015
+
+#define IDC_RELAY_ON_00                 13000
+#define IDC_RELAY_ON_01                 13001
+#define IDC_RELAY_ON_02                 13002
+#define IDC_RELAY_ON_03                 13003
+#define IDC_RELAY_ON_04                 13004
+#define IDC_RELAY_ON_05                 13005
+#define IDC_RELAY_ON_06                 13006
+#define IDC_RELAY_ON_07                 13007
+#define IDC_RELAY_ON_08                 13008
+#define IDC_RELAY_ON_09                 13009
+#define IDC_RELAY_ON_10                 13010
+#define IDC_RELAY_ON_11                 13011
+#define IDC_RELAY_ON_12                 13012
+#define IDC_RELAY_ON_13                 13013
+#define IDC_RELAY_ON_14                 13014
+#define IDC_RELAY_ON_15                 13015
+
+#define IDC_RELAY_OFF_00                14000
+#define IDC_RELAY_OFF_01                14001
+#define IDC_RELAY_OFF_02                14002
+#define IDC_RELAY_OFF_03                14003
+#define IDC_RELAY_OFF_04                14004
+#define IDC_RELAY_OFF_05                14005
+#define IDC_RELAY_OFF_06                14006
+#define IDC_RELAY_OFF_07                14007
+#define IDC_RELAY_OFF_08                14008
+#define IDC_RELAY_OFF_09                14009
+#define IDC_RELAY_OFF_10                14010
+#define IDC_RELAY_OFF_11                14011
+#define IDC_RELAY_OFF_12                14012
+#define IDC_RELAY_OFF_13                14013
+#define IDC_RELAY_OFF_14                14014
+#define IDC_RELAY_OFF_15                14015
+
+// Next default values for new objects
+// 
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_NEXT_RESOURCE_VALUE        149
+#define _APS_NEXT_COMMAND_VALUE         32771
+#define _APS_NEXT_CONTROL_VALUE         1050
+#define _APS_NEXT_SYMED_VALUE           101
+#endif
+#endif

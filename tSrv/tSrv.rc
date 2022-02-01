@@ -1,0 +1,327 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\tSrv.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\tSrv.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_TSRV_DIALOG DIALOGEX 0, 0, 332, 238
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION 
+"T E S T    T E S T    T E S T    T E S T    T E S T    Digital inputs, outputs & relays"
+
+FONT 10, "Fixedsys"
+BEGIN
+    PUSHBUTTON      "E&XiT EXiT EXiT EXiT",IDCANCEL,217,13,29,104,BS_CENTER | 
+                    BS_VCENTER | BS_MULTILINE
+    GROUPBOX        " Server : ",IDC_STATIC,240,183,85,48,BS_CENTER
+    PUSHBUTTON      "IP Port = 99999",IDC_IP_PORT,247,194,72,14
+    CTEXT           "999.999.999.999",IDC_SERV_IP,247,213,72,12,
+                    SS_CENTERIMAGE | WS_BORDER
+    PUSHBUTTON      "999.999.999.999",IDC_USER_IP_1,254,7,71,14,BS_FLAT
+    PUSHBUTTON      "999.999.999.999",IDC_USER_IP_2,254,28,71,14,BS_FLAT
+    PUSHBUTTON      "999.999.999.999",IDC_USER_IP_3,254,49,71,14,BS_FLAT
+    PUSHBUTTON      "999.999.999.999",IDC_USER_IP_4,254,70,71,14,BS_FLAT
+    PUSHBUTTON      "999.999.999.999",IDC_USER_IP_5,254,91,71,14,BS_FLAT
+    PUSHBUTTON      "999.999.999.999",IDC_USER_IP_6,254,112,71,14,BS_FLAT
+    PUSHBUTTON      "999.999.999.999",IDC_USER_IP_7,254,133,71,14,BS_FLAT
+    PUSHBUTTON      "999.999.999.999",IDC_USER_IP_8,254,154,71,14,BS_FLAT
+    PUSHBUTTON      " ",IDC_IN_0,17,21,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_IN_1,40,21,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_IN_2,63,21,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_IN_3,86,21,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_IN_4,109,21,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_IN_5,132,21,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_IN_6,155,21,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_IN_7,178,21,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_IN_8,17,43,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_IN_9,40,43,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_IN_10,63,43,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_IN_11,86,43,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_IN_12,109,43,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_IN_13,132,43,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_IN_14,155,43,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_IN_15,178,43,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_IN_16,17,65,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_IN_17,40,65,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_IN_18,63,65,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_IN_19,86,65,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_IN_20,109,65,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_IN_21,132,65,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_IN_22,155,65,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_IN_23,178,65,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_IN_24,17,87,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_IN_25,40,87,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_IN_26,63,87,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_IN_27,86,87,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_IN_28,109,87,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_IN_29,132,87,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_IN_30,155,87,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_IN_31,178,87,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_OUT_0,13,138,19,19,BS_BITMAP | BS_CENTER | 
+                    BS_FLAT
+    PUSHBUTTON      " ",IDC_OUT_1,36,138,19,19,BS_BITMAP | BS_CENTER | 
+                    BS_FLAT
+    PUSHBUTTON      " ",IDC_OUT_2,59,138,19,19,BS_BITMAP | BS_CENTER | 
+                    BS_FLAT
+    PUSHBUTTON      " ",IDC_OUT_3,82,138,19,19,BS_BITMAP | BS_CENTER | 
+                    BS_FLAT
+    PUSHBUTTON      " ",IDC_OUT_4,13,160,19,19,BS_BITMAP | BS_CENTER | 
+                    BS_FLAT
+    PUSHBUTTON      " ",IDC_OUT_5,36,160,19,19,BS_BITMAP | BS_CENTER | 
+                    BS_FLAT
+    PUSHBUTTON      " ",IDC_OUT_6,59,160,19,19,BS_BITMAP | BS_CENTER | 
+                    BS_FLAT
+    PUSHBUTTON      " ",IDC_OUT_7,82,160,19,19,BS_BITMAP | BS_CENTER | 
+                    BS_FLAT
+    PUSHBUTTON      " ",IDC_OUT_8,13,182,19,19,BS_BITMAP | BS_CENTER | 
+                    BS_FLAT
+    PUSHBUTTON      " ",IDC_OUT_9,36,182,19,19,BS_BITMAP | BS_CENTER | 
+                    BS_FLAT
+    PUSHBUTTON      " ",IDC_OUT_10,59,182,19,19,BS_BITMAP | BS_CENTER | 
+                    BS_FLAT
+    PUSHBUTTON      " ",IDC_OUT_11,82,182,19,19,BS_BITMAP | BS_CENTER | 
+                    BS_FLAT
+    PUSHBUTTON      " ",IDC_OUT_12,13,204,19,19,BS_BITMAP | BS_CENTER | 
+                    BS_FLAT
+    PUSHBUTTON      " ",IDC_OUT_13,36,204,19,19,BS_BITMAP | BS_CENTER | 
+                    BS_FLAT
+    PUSHBUTTON      " ",IDC_OUT_14,59,204,19,19,BS_BITMAP | BS_CENTER | 
+                    BS_FLAT
+    PUSHBUTTON      " ",IDC_OUT_15,82,204,19,19,BS_BITMAP | BS_CENTER | 
+                    BS_FLAT
+    PUSHBUTTON      " ",IDC_RELAY_0,127,138,19,19,BS_BITMAP | BS_CENTER | 
+                    BS_FLAT
+    PUSHBUTTON      " ",IDC_RELAY_1,150,138,19,19,BS_BITMAP | BS_CENTER | 
+                    BS_FLAT
+    PUSHBUTTON      " ",IDC_RELAY_2,173,138,19,19,BS_BITMAP | BS_CENTER | 
+                    BS_FLAT
+    PUSHBUTTON      " ",IDC_RELAY_3,196,138,19,19,BS_BITMAP | BS_CENTER | 
+                    BS_FLAT
+    PUSHBUTTON      " ",IDC_RELAY_4,127,160,19,19,BS_BITMAP | BS_CENTER | 
+                    BS_FLAT
+    PUSHBUTTON      " ",IDC_RELAY_5,150,160,19,19,BS_BITMAP | BS_CENTER | 
+                    BS_FLAT
+    PUSHBUTTON      " ",IDC_RELAY_6,173,160,19,19,BS_BITMAP | BS_CENTER | 
+                    BS_FLAT
+    PUSHBUTTON      " ",IDC_RELAY_7,196,160,19,19,BS_BITMAP | BS_CENTER | 
+                    BS_FLAT
+    PUSHBUTTON      " ",IDC_RELAY_8,127,182,19,19,BS_BITMAP | BS_CENTER | 
+                    BS_FLAT
+    PUSHBUTTON      " ",IDC_RELAY_9,150,182,19,19,BS_BITMAP | BS_CENTER | 
+                    BS_FLAT
+    PUSHBUTTON      " ",IDC_RELAY_10,173,182,19,19,BS_BITMAP | BS_CENTER | 
+                    BS_FLAT
+    PUSHBUTTON      " ",IDC_RELAY_11,196,182,19,19,BS_BITMAP | BS_CENTER | 
+                    BS_FLAT
+    PUSHBUTTON      " ",IDC_RELAY_12,127,204,19,19,BS_BITMAP | BS_CENTER | 
+                    BS_FLAT
+    PUSHBUTTON      " ",IDC_RELAY_13,150,204,19,19,BS_BITMAP | BS_CENTER | 
+                    BS_FLAT
+    PUSHBUTTON      " ",IDC_RELAY_14,173,204,19,19,BS_BITMAP | BS_CENTER | 
+                    BS_FLAT
+    PUSHBUTTON      " ",IDC_RELAY_15,196,204,19,19,BS_BITMAP | BS_CENTER | 
+                    BS_FLAT
+    GROUPBOX        " Inputs : ",IDC_STATIC,10,8,199,112,BS_CENTER
+    GROUPBOX        " Outputs : ",IDC_STATIC,7,128,102,103,BS_CENTER
+    GROUPBOX        " Relays : ",IDC_STATIC,120,128,102,103,BS_CENTER
+END
+
+IDD_SERV_IP_PORT_DLG DIALOG DISCARDABLE  0, 0, 82, 46
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "               SERVER TCP\\IP PORT"
+FONT 10, "Fixedsys"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,7,25,24,14
+    PUSHBUTTON      "Cancel",IDCANCEL,39,25,36,14
+    LTEXT           "Port :",IDC_STATIC,7,10,25,8
+    EDITTEXT        IDC_PORT,35,7,40,14,ES_AUTOHSCROLL
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "tSrv MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "tSrv\0"
+            VALUE "LegalCopyright", "Copyright (C) 2020\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "tSrv.EXE\0"
+            VALUE "ProductName", "tSrv Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_TSRV_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 325
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 231
+    END
+
+    IDD_SERV_IP_PORT_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 75
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 39
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_OFF                 BITMAP  DISCARDABLE     "res\\Off.bmp"
+IDB_ON                  BITMAP  DISCARDABLE     "res\\On.bmp"
+IDB_ON_G                BITMAP  DISCARDABLE     "res\\OnG.bmp"
+IDB_OFF_G               BITMAP  DISCARDABLE     "res\\OffG.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDP_SOCKETS_INIT_FAILED "8"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\tSrv.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,467 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\DiO.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\DiO.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIO_DLG DIALOGEX 0, 0, 698, 306
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION 
+"-------------------------------------------------------------   D I G I T A L    I N P U T S ,  O U T P U T S  &  R E L A Y S"
+
+FONT 10, "Fixedsys", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "E  &X  I  T",IDCANCEL,661,246,18,50,BS_MULTILINE
+    CONTROL         "Sa&ve",IDC_SAVE_RX,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,596,257,26,10
+    PUSHBUTTON      "&IP = 999.999.999.999  Port = 99999",IDC_SET_IP,263,255,
+                    167,14
+    CTEXT           "NOT CONNECTED",IDC_CONNECTED,454,255,125,14,
+                    SS_CENTERIMAGE | WS_BORDER
+    GROUPBOX        "Connect to server ",IDC_STATIC,254,246,379,52
+    CTEXT           "IDC_ANSWER",IDC_ANSWER,263,276,356,14,SS_CENTERIMAGE | 
+                    WS_BORDER
+    GROUPBOX        " INPUTS 1 ... 16 + RELAYS : ",IDC_STATIC,7,7,684,158,
+                    BS_CENTER
+    GROUPBOX        " OUTPUTS : ",IDC_STATIC,7,237,210,59,BS_CENTER
+    PUSHBUTTON      " ",IDC_IN_00,9,40,83,19,BS_BITMAP | BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      " ",IDC_IN_01,94,40,83,19,BS_BITMAP | BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      " ",IDC_IN_02,179,40,83,19,BS_BITMAP | BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      " ",IDC_IN_03,264,40,83,19,BS_BITMAP | BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      " ",IDC_IN_04,349,40,83,19,BS_BITMAP | BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      " ",IDC_IN_05,434,40,83,19,BS_BITMAP | BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      " ",IDC_IN_06,519,40,83,19,BS_BITMAP | BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      " ",IDC_IN_07,606,40,83,19,BS_BITMAP | BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      " ",IDC_IN_08,10,116,83,19,BS_BITMAP | BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      " ",IDC_IN_09,95,116,83,19,BS_BITMAP | BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      " ",IDC_IN_10,180,116,83,19,BS_BITMAP | BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      " ",IDC_IN_11,265,116,83,19,BS_BITMAP | BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      " ",IDC_IN_12,350,116,83,19,BS_BITMAP | BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      " ",IDC_IN_13,435,116,83,19,BS_BITMAP | BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      " ",IDC_IN_14,520,116,83,19,BS_BITMAP | BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      " ",IDC_IN_15,607,116,83,19,BS_BITMAP | BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      " ",IDC_IN_16,9,180,83,19,BS_BITMAP | BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      " ",IDC_IN_17,94,180,83,19,BS_BITMAP | BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      " ",IDC_IN_18,179,180,83,19,BS_BITMAP | BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      " ",IDC_IN_19,264,180,83,19,BS_BITMAP | BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      " ",IDC_IN_20,349,180,83,19,BS_BITMAP | BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      " ",IDC_IN_21,434,180,83,19,BS_BITMAP | BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      " ",IDC_IN_22,519,180,83,19,BS_BITMAP | BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      " ",IDC_IN_23,604,180,83,19,BS_BITMAP | BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      " ",IDC_IN_24,9,202,83,19,BS_BITMAP | BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      " ",IDC_IN_25,94,202,83,19,BS_BITMAP | BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      " ",IDC_IN_26,179,202,83,19,BS_BITMAP | BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      " ",IDC_IN_27,264,202,83,19,BS_BITMAP | BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      " ",IDC_IN_28,349,202,83,19,BS_BITMAP | BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      " ",IDC_IN_29,434,202,83,19,BS_BITMAP | BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      " ",IDC_IN_30,519,202,83,19,BS_BITMAP | BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      " ",IDC_IN_31,604,202,83,19,BS_BITMAP | BS_CENTER | 
+                    BS_VCENTER
+    PUSHBUTTON      " ",IDC_OUT_00,20,246,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_OUT_01,43,246,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_OUT_02,66,246,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_OUT_03,89,246,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_OUT_04,112,246,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_OUT_05,135,246,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_OUT_06,158,246,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_OUT_07,181,246,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_OUT_08,21,270,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_OUT_09,44,270,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_OUT_10,67,270,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_OUT_11,90,270,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_OUT_12,113,270,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_OUT_13,136,270,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_OUT_14,159,270,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      " ",IDC_OUT_15,182,270,19,19,BS_BITMAP | BS_CENTER
+    PUSHBUTTON      "On",IDC_RELAY_ON_00,23,18,59,19,BS_CENTER
+    PUSHBUTTON      "On",IDC_RELAY_ON_01,108,18,59,19,BS_CENTER
+    PUSHBUTTON      "On",IDC_RELAY_ON_02,193,18,59,19,BS_CENTER
+    PUSHBUTTON      "On",IDC_RELAY_ON_03,278,18,59,19,BS_CENTER
+    PUSHBUTTON      "On",IDC_RELAY_ON_04,363,18,59,19,BS_CENTER
+    PUSHBUTTON      "On",IDC_RELAY_ON_05,448,18,59,19,BS_CENTER
+    PUSHBUTTON      "On",IDC_RELAY_ON_06,533,18,59,19,BS_CENTER
+    PUSHBUTTON      "On",IDC_RELAY_ON_07,620,18,59,19,BS_CENTER
+    PUSHBUTTON      "On",IDC_RELAY_ON_08,23,94,59,19,BS_CENTER
+    PUSHBUTTON      "On",IDC_RELAY_ON_09,108,94,59,19,BS_CENTER
+    PUSHBUTTON      "On",IDC_RELAY_ON_10,193,94,59,19,BS_CENTER
+    PUSHBUTTON      "On",IDC_RELAY_ON_11,278,94,59,19,BS_CENTER
+    PUSHBUTTON      "On",IDC_RELAY_ON_12,363,94,59,19,BS_CENTER
+    PUSHBUTTON      "On",IDC_RELAY_ON_13,448,94,59,19,BS_CENTER
+    PUSHBUTTON      "On",IDC_RELAY_ON_14,533,94,59,19,BS_CENTER
+    PUSHBUTTON      "On",IDC_RELAY_ON_15,620,94,59,19,BS_CENTER
+    PUSHBUTTON      "Off",IDC_RELAY_OFF_00,23,62,59,19,BS_CENTER
+    PUSHBUTTON      "Off",IDC_RELAY_OFF_01,108,62,59,19,BS_CENTER
+    PUSHBUTTON      "Off",IDC_RELAY_OFF_02,193,62,59,19,BS_CENTER
+    PUSHBUTTON      "Off",IDC_RELAY_OFF_03,278,62,59,19,BS_CENTER
+    PUSHBUTTON      "Off",IDC_RELAY_OFF_04,363,62,59,19,BS_CENTER
+    PUSHBUTTON      "Off",IDC_RELAY_OFF_05,448,62,59,19,BS_CENTER
+    PUSHBUTTON      "Off",IDC_RELAY_OFF_06,533,62,59,19,BS_CENTER
+    PUSHBUTTON      "Off",IDC_RELAY_OFF_07,620,62,59,19,BS_CENTER
+    PUSHBUTTON      "Off",IDC_RELAY_OFF_08,23,138,59,19,BS_CENTER
+    PUSHBUTTON      "Off",IDC_RELAY_OFF_09,108,138,59,19,BS_CENTER
+    PUSHBUTTON      "Off",IDC_RELAY_OFF_10,193,138,59,19,BS_CENTER
+    PUSHBUTTON      "Off",IDC_RELAY_OFF_11,278,138,59,19,BS_CENTER
+    PUSHBUTTON      "Off",IDC_RELAY_OFF_12,363,138,59,19,BS_CENTER
+    PUSHBUTTON      "Off",IDC_RELAY_OFF_13,448,138,59,19,BS_CENTER
+    PUSHBUTTON      "Off",IDC_RELAY_OFF_14,533,138,59,19,BS_CENTER
+    PUSHBUTTON      "Off",IDC_RELAY_OFF_15,620,138,59,19,BS_CENTER
+    GROUPBOX        " INPUTS 17 ... 32: ",IDC_STATIC,7,173,684,54,BS_CENTER
+END
+
+IDD_IP_ADDRESS DIALOG DISCARDABLE  0, 0, 177, 51
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION 
+"                           IP    ADDRESS                                       PORT"
+
+FONT 10, "Fixedsys"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,27,30,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,119,30,51,14
+    CONTROL         "IPAddress1",IDC_IP_ADDRESS,"SysIPAddress32",WS_TABSTOP,
+                    7,7,100,15
+    EDITTEXT        IDC_IP_PORT,119,7,51,14,ES_CENTER | ES_AUTOHSCROLL
+END
+
+IDD_USER_NAME DIALOG DISCARDABLE  0, 0, 167, 58
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "          USER  NAME"
+FONT 10, "Fixedsys"
+BEGIN
+    EDITTEXT        IDC_USER_NAME,7,20,153,14,ES_CENTER | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,26,37,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,90,37,50,14
+    LTEXT           "User Name:",IDC_STATIC,63,7,41,8
+END
+
+IDD_SET_INPUT DIALOGEX 0, 0, 576, 276
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION 
+"                                                                                                                                                             I N P U T     S E T T I N G S :"
+
+FONT 10, "Fixedsys", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,232,255,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,293,255,50,14
+    EDITTEXT        IDC_TEXT_1,67,56,94,14,ES_CENTER | ES_AUTOHSCROLL
+    LTEXT           "Red:",IDC_STATIC,20,89,17,8
+    LTEXT           "Green:",IDC_STATIC,12,101,25,8
+    LTEXT           "Blue:",IDC_STATIC,16,115,21,8
+    PUSHBUTTON      "Hi button",IDC_BUTTON_1,182,54,83,19,BS_BITMAP | NOT 
+                    WS_TABSTOP
+    LTEXT           "Hi text :",IDC_STATIC,15,59,44,8
+    GROUPBOX        " Hi input settings : ",IDC_STATIC,7,33,277,204,
+                    BS_CENTER
+    EDITTEXT        IDC_TEXT_0,352,56,94,14,ES_CENTER | ES_AUTOHSCROLL
+    CONTROL         "Slider1",IDC_1_CLR_R,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,36,86,244,15
+    CONTROL         "Slider1",IDC_1_CLR_G,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,36,99,244,15
+    CONTROL         "Slider1",IDC_1_CLR_B,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,36,113,244,15
+    CONTROL         "Slider1",IDC_0_CLR_R,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,321,86,244,15
+    CONTROL         "Slider1",IDC_0_CLR_G,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,321,99,244,15
+    CONTROL         "Slider1",IDC_0_CLR_B,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,321,113,244,15
+    CONTROL         "Slider1",IDC_1_BKG_R,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,36,170,244,15
+    CONTROL         "Slider1",IDC_1_BKG_G,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,36,183,244,15
+    CONTROL         "Slider1",IDC_1_BKG_B,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,36,197,244,15
+    CONTROL         "Slider1",IDC_0_BKG_R,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,321,170,244,15
+    CONTROL         "Slider1",IDC_0_BKG_G,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,321,183,244,15
+    CONTROL         "Slider1",IDC_0_BKG_B,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,321,197,244,15
+    CTEXT           "Static",IDC_1_BYTE_CLR_R,37,131,41,16,SS_CENTERIMAGE | 
+                    WS_BORDER
+    CTEXT           "Static",IDC_1_BYTE_CLR_G,125,131,41,16,SS_CENTERIMAGE | 
+                    WS_BORDER
+    CTEXT           "Static",IDC_1_BYTE_CLR_B,213,131,41,16,SS_CENTERIMAGE | 
+                    WS_BORDER
+    CTEXT           "Static",IDC_0_BYTE_CLR_R,322,131,41,16,SS_CENTERIMAGE | 
+                    WS_BORDER
+    CTEXT           "Static",IDC_0_BYTE_CLR_G,410,131,41,16,SS_CENTERIMAGE | 
+                    WS_BORDER
+    CTEXT           "Static",IDC_0_BYTE_CLR_B,498,131,41,16,SS_CENTERIMAGE | 
+                    WS_BORDER
+    CTEXT           "Static",IDC_1_BYTE_BKG_R,37,215,41,16,SS_CENTERIMAGE | 
+                    WS_BORDER
+    CTEXT           "Static",IDC_1_BYTE_BKG_G,125,215,41,16,SS_CENTERIMAGE | 
+                    WS_BORDER
+    CTEXT           "Static",IDC_1_BYTE_BKG_B,213,215,41,16,SS_CENTERIMAGE | 
+                    WS_BORDER
+    CTEXT           "Static",IDC_0_BYTE_BKG_R,322,215,41,16,SS_CENTERIMAGE | 
+                    WS_BORDER
+    CTEXT           "Static",IDC_0_BYTE_BKG_G,410,215,41,16,SS_CENTERIMAGE | 
+                    WS_BORDER
+    CTEXT           "Static",IDC_0_BYTE_BKG_B,498,215,41,16,SS_CENTERIMAGE | 
+                    WS_BORDER
+    LTEXT           "Red:",IDC_STATIC,305,89,17,8
+    LTEXT           "Green:",IDC_STATIC,297,101,25,8
+    LTEXT           "Blue:",IDC_STATIC,301,115,21,8
+    PUSHBUTTON      "Lo button",IDC_BUTTON_0,467,54,83,19,BS_BITMAP | NOT 
+                    WS_TABSTOP
+    LTEXT           "Lo text :",IDC_STATIC,300,59,44,8
+    GROUPBOX        "Lo input settings : ",IDC_STATIC,292,33,277,203,
+                    BS_CENTER
+    CTEXT           "###########",IDC_N_INPUT,209,7,159,19,SS_CENTERIMAGE | 
+                    WS_BORDER,WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE
+    LTEXT           "Red:",IDC_STATIC,15,134,17,8
+    LTEXT           "Green:",IDC_STATIC,95,134,25,8
+    LTEXT           "Blue:",IDC_STATIC,186,134,21,8
+    LTEXT           "Red:",IDC_STATIC,300,134,17,8
+    LTEXT           "Green:",IDC_STATIC,380,134,25,8
+    LTEXT           "Blue:",IDC_STATIC,471,145,21,8
+    LTEXT           "Preview :",IDC_STATIC,203,43,41,8
+    LTEXT           "Preview :",IDC_STATIC,488,43,41,8
+    GROUPBOX        " Text colour : ",IDC_STATIC,7,77,277,76,BS_CENTER
+    GROUPBOX        " Text colour : ",IDC_STATIC,292,77,277,76,BS_CENTER
+    LTEXT           "Red:",IDC_STATIC,20,173,17,8
+    LTEXT           "Green:",IDC_STATIC,12,185,25,8
+    LTEXT           "Blue:",IDC_STATIC,16,199,21,8
+    LTEXT           "Red:",IDC_STATIC,305,173,17,8
+    LTEXT           "Green:",IDC_STATIC,297,185,25,8
+    LTEXT           "Blue:",IDC_STATIC,301,199,21,8
+    LTEXT           "Red:",IDC_STATIC,15,218,17,8
+    LTEXT           "Green:",IDC_STATIC,95,218,25,8
+    LTEXT           "Blue:",IDC_STATIC,186,218,21,8
+    LTEXT           "Red:",IDC_STATIC,300,218,17,8
+    LTEXT           "Green:",IDC_STATIC,380,218,25,8
+    LTEXT           "Blue:",IDC_STATIC,471,218,21,8
+    GROUPBOX        " Background : ",IDC_STATIC,7,161,277,76,BS_CENTER
+    GROUPBOX        " Background : ",IDC_STATIC,292,161,277,75,BS_CENTER
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "DiO MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "DiO\0"
+            VALUE "LegalCopyright", "Copyright (C) 2017\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "DiO.EXE\0"
+            VALUE "ProductName", "DiO Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIO_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 691
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 299
+    END
+
+    IDD_USER_NAME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 160
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 51
+    END
+
+    IDD_SET_INPUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 569
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 269
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_OFF                 BITMAP  DISCARDABLE     "res\\Off.bmp"
+IDB_ON                  BITMAP  DISCARDABLE     "res\\On.bmp"
+IDB_X                   BITMAP  DISCARDABLE     "res\\X.bmp"
+IDB_ON_G                BITMAP  DISCARDABLE     "res\\OnG.bmp"
+IDB_OFF_G               BITMAP  DISCARDABLE     "res\\OffG.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\DiO.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
